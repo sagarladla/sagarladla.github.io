@@ -2,8 +2,8 @@
 title = "Welcome"
 date = 2024-02-25T15:02:40+05:30
 description = "This text was generated using the After Dark post archetype."
-draft = true
-toc = false
+draft = false
+toc = true
 categories = ["hacking"]
 tags = ["after", "dark"]
 images = [
