@@ -6,7 +6,7 @@ noindex = true # tell robots not to index
   helpblock = "Press <kbd>/</kbd> or <kbd>s</kbd> to modify your search."
   hotkeys = ["/", "s"]
 [form.input]
-  placeholder = "uzzy searvh"
+  placeholder = ". . ."
   disabled = false
 [security.csp.directives]
   scriptSrc = [

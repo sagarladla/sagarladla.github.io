@@ -1,0 +1,137 @@
+/*!
+ * Copyright (C) 2019  VHS <vhsdev@tutanota.com>
+ *
+ * This file is part of After Dark.
+ *
+ * After Dark is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published
+ * by the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * After Dark is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+:root {
+	--trim-color: #0f4c5c;
+	--hackcss-light--text-color: black;
+	--accent-color: #f77f00;
+	--link-color: #3a86ff;
+	--link-color--active: var(--link-color);
+	--link-border-color: #003049;
+	--nav-link-color: #003049;
+	--nav-link-border-color: var(--link-border-color);
+	--nav-link-color--active: #ffffff;
+	--nav-link-border-color: var(--link-border-color);
+	--nav-link-border-color--active: var(--link-border-color);
+	--nav-link-bg-color--active: #002f49a2;
+	--muted-text: #36454f;
+	--screen-size-small: 30em;
+}
+
+a[rel*="external"]::after {
+	content: " "
+		url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23ff9800'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
+}
+
+.hack a {
+	color: var(--link-color);
+	border-bottom: unset;
+}
+
+.hack a:hover,
+.hack a:focus {
+	color: var(--link-color);
+	background-color: unset;
+	border-bottom: 1.5px var(--link-border-color) dashed;
+}
+
+nav a.active {
+	background-color: var(--nav-link-bg-color--active);
+	color: var(--nav-link-color--active);
+}
+
+.hack nav a[itemprop="url"] {
+	text-transform: lowercase;
+	color: var(--nav-link-color);
+	border-bottom: var(--nav-link-border-color);
+	padding: 6px;
+	margin: unset;
+	display: inline-block;
+}
+
+.hack nav a[itemprop="url"].active {
+	color: var(--nav-link-color--active);
+	background-color: var(--nav-link-bg-color--active);
+	border-bottom: var(--nav-link-border-color--active);
+}
+
+.hack nav a[itemprop="url"]:hover,
+.hack nav a[itemprop="url"]:focus {
+	color: var(--nav-link-color--active);
+	background-color: var(--nav-link-bg-color--active);
+}
+
+.hack nav a[itemprop="url"].active:hover,
+.hack nav a[itemprop="url"].active:focus {
+	filter: brightness(1.5);
+}
+
+.hack nav a[itemprop="url"] svg {
+	stroke: var(--accent-color);
+	margin-bottom: -2px;
+}
+
+.hack nav a[itemprop="url"]:hover svg,
+.hack nav a[itemprop="url"]:focus svg {
+	stroke: #ffffff;
+	margin-bottom: -2px;
+}
+
+.hack h1[itemprop] {
+	font-size: 2rem;
+	padding-bottom: unset;
+}
+
+.hack h1[itemprop]::after {
+	content: unset;
+}
+
+.hack h1[itemprop] a {
+	font-size: 1.5rem;
+	border: unset;
+}
+
+.hack h1[itemprop] a:hover,
+.hack h1[itemprop] a:focus {
+	background-color: unset;
+	border-bottom: 2px #003049 dashed;
+}
+
+.hack .muted,
+.hack .help-block {
+	color: var(--muted-text);
+}
+
+.muted,
+.help-block {
+	opacity: 0.7;
+}
+
+.hack p.muted a {
+	padding: 2px;
+}
+
+.hack p.muted svg {
+	stroke: var(--accent-color);
+	margin-bottom: -5px;
+}
+
+.hack header h1+p.muted {
+	font-size: smaller;
+}
