@@ -1,27 +1,9 @@
-/*!
- * Copyright (C) 2019  VHS <vhsdev@tutanota.com>
- *
- * This file is part of After Dark.
- *
- * After Dark is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * After Dark is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
- */
-
 :root {
 	--trim-color: #0f4c5c;
 	--hackcss-light--text-color: black;
 	--accent-color: #f77f00;
 	--link-color: #3a86ff;
+	--link-bg-color: #3a85ff3e;
 	--link-color--active: var(--link-color);
 	--link-border-color: #003049;
 	--nav-link-color: #003049;
@@ -47,7 +29,7 @@ a[rel*="external"]::after {
 .hack a:hover,
 .hack a:focus {
 	color: var(--link-color);
-	background-color: unset;
+	background-color: var(--link-bg-color);
 	border-bottom: 1.5px var(--link-border-color) dashed;
 }
 
@@ -110,6 +92,7 @@ nav a.active {
 .hack h1[itemprop] a:hover,
 .hack h1[itemprop] a:focus {
 	background-color: unset;
+	/*var(--link-bg-color);*/
 	border-bottom: 2px #003049 dashed;
 }
 
@@ -134,4 +117,11 @@ nav a.active {
 
 .hack header h1+p.muted {
 	font-size: smaller;
+}
+
+.hack>header {
+	display: grid;
+	grid-template-columns: 1fr minmax(min-content, auto);
+	column-gap: 20px;
+	grid-template-areas: "nav nav";
 }
