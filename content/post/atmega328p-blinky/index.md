@@ -104,6 +104,6 @@ Execute `$ make` to prepare the flashable file(led.hex), and then flash using `$
 
 ## Demo
 Yeaah! you have coded the bare-metal led blinking for atmega328P. You can substitute the pin13 with IO pin your choice together with external led.
-![demo](./images/20240714_042834.mp4)
+![demo](./images/20240714_042834.gif)
 
 Source: {{< external href="https://github.com/sagarladla/atmega328p/tree/main/led" text="atmega328p" />}}
