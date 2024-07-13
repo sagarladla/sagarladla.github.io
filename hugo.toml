@@ -84,3 +84,6 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
 
 [outputs]
 	home = ["HTML", "RSS", "JSON"]
+	section = ["HTML", "RSS"]
+	taxonomy = ["HTML", "RSS"]
+	term = ["HTML", "RSS"]
