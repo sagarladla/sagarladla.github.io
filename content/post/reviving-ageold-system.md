@@ -37,7 +37,7 @@ Linux is like that great Hindustani `SAGE` which enlightens about 'every one ðŸ’
 - LXDE
 - LXQT
 
-From above UIs I happily use LXQT, it offers quite good (GUI - obviously, it's QT after all ;)) (if it matters to you) and also being light weight I can easily work all day long just sacrificing few multimedia enjoyments while working.
+From above UIs I happily use LXQT, it offers quite good (GUI - obviously, it's QT after all ;) (if it matters to you) and also being light weight I can easily work all day long just sacrificing few multimedia enjoyments while working.
 
 # Light environment
 VS Code is also heavy for such kind of systems. Further improving this I created small tool which monitored GIT and helped me in managing updates with GIT all in `Command Line Interface`.

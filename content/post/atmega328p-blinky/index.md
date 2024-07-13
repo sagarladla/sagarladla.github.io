@@ -33,14 +33,14 @@ For writing(1) to 5th bit of PORTB, we need enable the 5th bit of DDRB with MMIO
 ![DDRB Register](./images/DDRB.png)
 
 # Code Workflow
-- Blinking can be performed with the simple bit-shifting, ```(1 << 5)```,
-	1. write enabling DDRB: `DDRB = DDRB | (1 << 5)`
-	2. writing logical high to PORTB: `PORTB = PORTB | (1 << 5)`
-	3. delay
-	4. writing logical low to PORTB: `PORTB = PORTB & ~(1 << 5)`
-	5. delay
+Blinking can be performed with the simple bit-shifting, ```(1 << 5)```,
+1. write enabling DDRB: `DDRB = DDRB | (1 << 5)`
+2. writing logical high to PORTB: `PORTB = PORTB | (1 << 5)`
+3. delay
+4. writing logical low to PORTB: `PORTB = PORTB & ~(1 << 5)`
+5. delay
 
-### Pseudo code
+## Pseudo code
 ```c
 #include<io.h>
 
@@ -97,12 +97,12 @@ burn:
 	-P /dev/ttyACM0 -b 115200 -U flash:w:led.hex
 ```
 
-### Flashing instructions
+## Flashing instructions
 You can check to what port is your Arduino connected to: `$ ls /dev/ | grep ACM`
 
 Execute `$ make` to prepare the flashable file(led.hex), and then flash using `$make burn` command.
 
-### Demo
+## Demo
 Yeaah! you have coded the bare-metal led blinking for atmega328P. You can substitute the pin13 with IO pin your choice together with external led.
 ![demo](./images/20240714_042834.mp4)
 
