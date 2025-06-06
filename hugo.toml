@@ -2,7 +2,7 @@ baseurl = "https://sagarladla.github.io/" # Controls base URL sitewide
 languageCode = "en-US" # Controls site language
 title = "Sagar Ladla" # Homepage title and page title suffix
 paginate = 10 # Number of posts to show before paginating
-copyright = "Copyright &copy; 2024 Sagar Ladla. Licensed under <a target=\"_blank\" rel=\"external license\" href=\"https://creativecommons.org/licenses/by-nd/4.0/\">CC BY-ND 4.0</a>." # Optional, remove to suppress copyright notices
+copyright = "Copyright &copy; 2023-2025 Sagar Ladla. Licensed under <a target=\"_blank\" rel=\"external license\" href=\"https://creativecommons.org/licenses/by-nd/4.0/\">CC BY-ND 4.0</a>." # Optional, remove to suppress copyright notices
 toc = true
 
 # Controls default theme and theme components
