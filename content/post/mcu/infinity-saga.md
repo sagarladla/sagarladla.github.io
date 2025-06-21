@@ -70,7 +70,7 @@ ID | FILM                                        | RELEASE DATE
 
 
 
-![Infinity Stones](./images/infinity-stones.gif)
+![Infinity Stones](./images/infinity-stones.bpg)
 <!-- <img
   data-sizes="auto"
   data-src="./images/infinity-stones.gif"
