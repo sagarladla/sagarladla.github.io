@@ -11,7 +11,7 @@ categories = ["Marvel Comics Universe"]
   license = "cc-by-nc-sa-4.0"
 +++
 
-![Infinity Stones](./images/infinity-stones.bpg)
+![Infinity Stones](./images/infinity-stones.jpg)
 
 ### PHASE 1
 ID | FILM                                | RELEASE DATE  
