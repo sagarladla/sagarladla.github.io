@@ -2,7 +2,7 @@
 title = "Batch Gradient Descent"
 date = 2025-06-22T02:58:44+05:30
 description = "It demostrates algorithm of machine learning for linear regression problems."
-draft = true
+draft = false
 toc = false
 categories = ["Machine Learning"]
 [[copyright]]
