@@ -46,4 +46,4 @@ corresponds to
 
 ###### * Hperparameter - parameters which indirectly affect the <u>rate of iterations</u> or <u>learning algorithm</u> over the dataset.
 
--> [C++ implementation of the algorithm](https://github.com/sagarladla/everyting_c-cxx/blob/main/gradient-descent/gradient-descent.cpp)
+Source: {{< external href="https://github.com/sagarladla/everyting_c-cxx/blob/main/gradient-descent/gradient-descent.cpp" text="C++ implementation of the algorithm" />}}
