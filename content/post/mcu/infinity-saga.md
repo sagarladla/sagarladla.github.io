@@ -4,7 +4,7 @@ date = 2025-06-21T21:16:58+05:30
 description = "It contains the movies revolving around infinity stones."
 draft = false
 toc = false
-categories = ["marvel-comics-universe"]
+categories = ["Marvel Comics Universe"]
 [[resources]]
   src = "./images/infinity-stones.bpg"
   name = "header"
