@@ -6,7 +6,7 @@ draft = false
 toc = false
 categories = ["marvel-comics-universe"]
 [[resources]]
-  src = "./images/infinity-stones.gif"
+  src = "./images/infinity-stones.bpg"
   name = "header"
   title = "Infinity Stones"
   [resources.params.meta]
