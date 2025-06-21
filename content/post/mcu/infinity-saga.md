@@ -5,11 +5,8 @@ description = "It contains the movies revolving around infinity stones."
 draft = false
 toc = false
 categories = ["marvel-comics-universe"]
-images = [
-  "https://source.unsplash.com/collection/983219/1600x900"
-] # overrides site-wide open graph image
 [[resources]]
-  src = "./images/infinity-stones.png"
+  src = "./images/infinity-stones.webp"
   name = "header"
   title = "Infinity Stones"
   [resources.params.meta]
