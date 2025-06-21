@@ -6,7 +6,7 @@ draft = false
 toc = false
 categories = ["marvel-comics-universe"]
 [[resources]]
-  src = "./images/infinity-stones.jpg"
+  src = "./images/infinity-stones.gif"
   name = "header"
   title = "Infinity Stones"
   [resources.params.meta]
@@ -73,6 +73,6 @@ ID | FILM                                        | RELEASE DATE
 <!-- ![Infinity Stones](./images/infinity-stones.png) -->
 <img
   data-sizes="auto"
-  data-src="./images/infinity-stones.jpg"
-  data-srcset="./images/infinity-stones.jpg ./images/infinity-stones.jpg"
+  data-src="./images/infinity-stones.gif"
+  data-srcset="./images/infinity-stones.gif ./images/infinity-stones.gif"
   class="lazyload" />
