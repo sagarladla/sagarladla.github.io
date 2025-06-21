@@ -6,7 +6,7 @@ draft = false
 toc = false
 categories = ["hack conspiracy"]
 tags = ["cyber", "security", "Natanz security breach", "Iran nuclear test hack & failure"]
-author = "Sagar Ladla (@sagarladla)"
+author = "Sāgaravarman Ladla"
 
 [[resources]]
   src = "./images/stuxnet-1.jpg"

@@ -6,7 +6,7 @@ draft = false
 toc = false
 categories = ["Marvel Comics Universe"]
 [[copyright]]
-  owner = "Sagar Ladla"
+  owner = "Sāgaravarman Ladla"
   date = "2025"
   license = "cc-by-nc-sa-4.0"
 +++

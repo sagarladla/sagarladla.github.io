@@ -10,7 +10,7 @@ images = [
   "https://source.unsplash.com/collection/983219/1600x900"
 ] # overrides site-wide open graph image
 [[copyright]]
-  owner = "Sagar Ladla"
+  owner = "Sāgaravarman Ladla"
   date = "2024"
   license = "cc-by-nc-sa-4.0"
 +++

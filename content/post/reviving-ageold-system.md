@@ -4,7 +4,7 @@ description = "Reviving my ageold system at no cost!!! 🌱"
 date = 2020-06-05T23:28:30+05:30
 draft = false
 toc = true
-author = "Sagar Ladla (@sagarladla)"
+author = "Sāgaravarman Ladla"
 categories = ["linux-reviving-old-pc"]
 tags = ["old pc", "revival", "linux", "xfce", "lxde", "lxqt"]
 +++
