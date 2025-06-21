@@ -76,6 +76,6 @@ ID | FILM                                        | RELEASE DATE
 <!-- ![Infinity Stones](./images/infinity-stones.png) -->
 <img
   data-sizes="auto"
-  data-src="./images/infinity-stones.png"
-  data-srcset="./images/infinity-stones.png ./images/infinity-stones.png"
+  data-src="./images/infinity-stones.webp"
+  data-srcset="./images/infinity-stones.webp ./images/infinity-stones.webp"
   class="lazyload" />
