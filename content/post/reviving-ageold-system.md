@@ -6,7 +6,6 @@ draft = false
 toc = true
 author = "Sāgaravarman Ladla"
 categories = ["linux-reviving-old-pc"]
-tags = ["old pc", "revival", "linux", "xfce", "lxde", "lxqt"]
 +++
 
 # PC SPECS

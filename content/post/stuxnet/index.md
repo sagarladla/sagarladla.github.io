@@ -5,7 +5,6 @@ date = "2019-07-15"
 draft = false
 toc = false
 categories = ["hack conspiracy"]
-tags = ["cyber", "security", "Natanz security breach", "Iran nuclear test hack & failure"]
 author = "Sāgaravarman Ladla"
 
 [[resources]]

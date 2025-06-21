@@ -4,8 +4,7 @@ date = 2024-07-13T20:51:39Z
 description = "Bare metal blinking of led in Arduino UNO (atmega328p)"
 draft = false
 toc = true
-categories = ["bare-metal", "avr", "atmega328p"]
-tags = ["avr"]
+categories = ["avr"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"
 ] # overrides site-wide open graph image
